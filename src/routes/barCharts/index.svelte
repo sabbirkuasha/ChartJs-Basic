@@ -1,7 +1,8 @@
 
 <script>
     import {onMount} from 'svelte'
-    import Chart from 'chart.js/auto';
+    // import Chart from 'chart.js/auto'; //This is not supported when building with es6 
+    import Chart from '../../../node_modules/chart.js/auto/auto'
 
     let a = 20
     $:a
